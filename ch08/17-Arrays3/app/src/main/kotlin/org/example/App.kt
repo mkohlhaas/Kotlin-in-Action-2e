@@ -1,0 +1,6 @@
+package org.example
+
+fun main() {
+    val strings = listOf("a", "b", "c")
+    println("%s/%s/%s".format(*strings.toTypedArray()))
+}
