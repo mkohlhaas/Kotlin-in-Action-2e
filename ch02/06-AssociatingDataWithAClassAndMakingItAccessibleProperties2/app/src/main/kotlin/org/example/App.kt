@@ -1,14 +1,14 @@
 package org.example
 
 class Person(
-    val name: String,
-    var isStudent: Boolean
+  val name: String,
+  var isStudent: Boolean,
 )
 
 fun main() {
-    val person = Person("Bob", true)
-    println(person.name)
-    println(person.isStudent)
-    person.isStudent = false
-    println(person.isStudent)
+  val person = Person("Bob", true)
+  println(person.name)
+  println(person.isStudent)
+  person.isStudent = false
+  println(person.isStudent)
 }

@@ -1,8 +1,8 @@
 package org.example
 
 fun main() {
-    val name = readln()
-    if (name.isNotBlank()) {
-        println("Hello, ${name.length}-letter person!")
-    }
+  val name = "John"
+  if (name.isNotBlank()) {
+    println("Hello, $name, you ${name.length}-letter person! 😃")
+  }
 }

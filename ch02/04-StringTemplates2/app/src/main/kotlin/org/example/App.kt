@@ -1,6 +1,6 @@
 package org.example
 
 fun main() {
-    val name = readln()
-    println("Hello, ${if (name.isBlank()) "someone" else name}!")
+  val name = "John"
+  println("Hello, ${name.ifBlank { "someone" }}!")
 }

@@ -1,7 +1,7 @@
 package org.example
 
 fun main() {
-    val input = readln()
-    val name = if (input.isNotBlank()) input else "Kotlin"
-    println("Hello, $name!")
+  val input = readln()
+  val name = input.ifBlank { "Kotlin" }
+  println("Hello, $name!")
 }

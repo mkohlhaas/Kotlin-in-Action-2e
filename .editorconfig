@@ -1,0 +1,17 @@
+# top-most .editorconfig file
+root = true
+
+# Global Settings: Apply to all file types in the project ✨
+[*]
+end_of_line = lf               # Use Unix-style line endings (LF)
+trim_trailing_whitespace = true # Remove trailing whitespace on lines
+charset = utf-8                # Use UTF-8 encoding for all files
+
+# Kotlin-Specific Settings: Tailored for .kt and .kts files 📏
+[*.{kt,kts}]
+indent_size = 2               # Standard Kotlin indentation is 4 spaces
+indent_style = space          # Use spaces for indentation
+
+# Max Line Length: Adhering to Android Kotlin Style Guide (often 100 or 120) ✍️
+max_line_length = 140         # The hard limit for line length
+ktlint_standard_max_line_length = 100 # KtLint-specific rule for line length

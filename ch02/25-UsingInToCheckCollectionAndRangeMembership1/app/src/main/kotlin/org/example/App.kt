@@ -8,4 +8,6 @@ fun recognize(c: Char) = when (c) {
 
 fun main() {
     println(recognize('8'))
+    println(recognize('e'))
+    println(recognize('$'))
 }
